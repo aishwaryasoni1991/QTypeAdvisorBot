@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aishwaryasoni1991/advisorbot"
+    "url": "https://github.com/aishwaryasoni1991/QTypeAdvisorBot"
   },
   "bugs": {
     "url": "https://github.com/howdyai/botkit/issues"
@@ -47,6 +47,6 @@
     "chatbots",
     "slack"
   ],
-  "author": "ben@xoxco.com",
+  "author": "Aishwarya Soni",
   "license": "MIT"
 }

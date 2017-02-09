@@ -83,7 +83,7 @@ if (!process.env.wit) {
   console.log('Error: Specify wit server token in environment')
 }
 
-process.env.token='xoxb-76071313888-ih9WYypeIqwKNlV43V8cKyQ1';
+process.env.token='xoxb-76071313888-qb4b6ErFzUzTbYcVjxxABpmx';
 if (!process.env.token) {
   console.log('Error: Specify token in environment');
   process.exit(1);
@@ -130,8 +130,8 @@ controller.hears(['bye'],'direct_message', wit.hears, function(bot,message) {
 });
 
 
-controller.hears(['ABB'], 'direct_message', wit.hears, function(bot, message) {
-  bot.reply(message,"Question type ABB detected.");
+controller.hears(['ABBR'], 'direct_message', wit.hears, function(bot, message) {
+  bot.reply(message,"Question type ABBR detected.");
 });
 
 controller.hears(['ENTY'], 'direct_message', wit.hears, function(bot, message) {
